@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(29, 29, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.loader{
+    display: flex;
+    color: white;
+    gap: 100px;
+    text-align: center;
+    
+   
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.score{
+    font-size: 100px;
+    margin-bottom: 30px;
+    font-family: 'Digital-7', sans-serif;
+    color: #ff414d;
+    background-color: #000000;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 8px;
+}
+.button button{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Digital-7', sans-serif;
+    color: #c7b0d1;
+    background-color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+}
